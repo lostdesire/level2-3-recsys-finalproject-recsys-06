@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "EASE"
+version = "0.1.0"
+description = "for EASE model"
+authors = ["chocokookie <whgudwlsdlrm@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.2.1"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+scipy = "^1.12.0"
+bottleneck = "^1.3.8"
+wandb = "^0.16.4"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

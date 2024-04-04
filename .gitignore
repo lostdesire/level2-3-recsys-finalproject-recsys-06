@@ -1,0 +1,15 @@
+__pycache__
+chrome*
+json_id
+*.bin
+*.npy
+*.txt
+data
+wandb
+*.pt
+*.pkl
+/api/app/models/fasttext
+/api/app/models/fasttext.bin
+*.deb
+*.env
+*.ini
